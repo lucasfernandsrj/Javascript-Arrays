@@ -3,7 +3,7 @@ let array2 = [2 ,4 ,3 ,6]
 let array3 = [4 ,5 ,9 ,4]
 let array4 = [6 ,1 ,5 ,10]
 
-//concatenar
+//concat
 /*
 Junta dois arrays, colocando o array passado como argumento, logo depois do primeiro. Em português essa operação é conhecida como concatenação.
 Não altera o array no qual foi chamado, então precisamos salvar esse resultado em um novo array.
@@ -12,7 +12,7 @@ console.log(array1.concat(array2)) // não altera o array1
 let array12 = array1.concat(array2) //É necessário salvar o resultado em um novo array
 console.log(array12)
 
-//filtrar
+//filter
 /*
 Retorna uma lista contando todos os elementos que passaram em um teste, ou seja, uma função escrita por nós.
 Não altera o array onde foi chamado, então precisamos salvar esse resultado em um novo array.
@@ -23,7 +23,7 @@ function valorMaior(valor) {
   var filtered = array1.filter(valorMaior);
  console.log(filtered)
 
- //procurar
+ //find
  /*
  Funciona de forma parecida com o filter, porém retorna apenas o primeiro valor que satisfizer o teste, podendo ser uma string ou um número.
  */
@@ -33,7 +33,7 @@ function valorMaior(valor) {
   var filtered = array1.find(valorMaior);
  console.log(filtered)
 
- //procurar index
+ //findIndex
  /*
  Funciona igual o find(), mas retorna o índice em vez do elemento, possibilitando usá-lo em outras partes do código.
  */
